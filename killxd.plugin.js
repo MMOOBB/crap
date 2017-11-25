@@ -44,21 +44,66 @@ class killxd {
 		setTimeout(function() {
 			$(".chat .content .messages-wrapper .messages .message-group .comment .message .message-text .markup:not(pre), .chat .content .messages-wrapper .messages .message-group .comment .message .message-text .markup:not(code)").each((i, e) => {
 				const tagRegex = /(?:\bXD\b)/igm;
+				const html = $(e).html();
+				if(tagRegex.test(html)) {
+					$(e).html(html.replace(tagRegex, 'I\'m a retard lol.'));
 				const tagRegex = /(?:\bXDXD\b)/igm;
+				const html = $(e).html();
+				if(tagRegex.test(html)) {
+					$(e).html(html.replace(tagRegex, 'I\'m a retard lol.'));
 				const tagRegex = /(?:\bXDXDXD\b)/igm;
+				const html = $(e).html();
+				if(tagRegex.test(html)) {
+					$(e).html(html.replace(tagRegex, 'I\'m a retard lol.'));
 				const tagRegex = /(?:\bXDXDXDXD\b)/igm;
+				const html = $(e).html();
+				if(tagRegex.test(html)) {
+					$(e).html(html.replace(tagRegex, 'I\'m a retard lol.'));
 				const tagRegex = /(?:\bXDXDXDXDXD\b)/igm;
+				const html = $(e).html();
+				if(tagRegex.test(html)) {
+					$(e).html(html.replace(tagRegex, 'I\'m a retard lol.'));
 				const tagRegex = /(?:\bXDXDXDXDXDXD\b)/igm;
+				const html = $(e).html();
+				if(tagRegex.test(html)) {
+					$(e).html(html.replace(tagRegex, 'I\'m a retard lol.'));
 				const tagRegex = /(?:\bXDXDXDXDXDXDXD\b)/igm;
+				const html = $(e).html();
+				if(tagRegex.test(html)) {
+					$(e).html(html.replace(tagRegex, 'I\'m a retard lol.'));
 				const tagRegex = /(?:\bXDXDXDXDXDXDXDXD\b)/igm;
 				const tagRegex = /(?:\bXDD\b)/igm;
+				const html = $(e).html();
+				if(tagRegex.test(html)) {
+					$(e).html(html.replace(tagRegex, 'I\'m a retard lol.'));
 				const tagRegex = /(?:\bXDX\b)/igm;
+				const html = $(e).html();
+				if(tagRegex.test(html)) {
+					$(e).html(html.replace(tagRegex, 'I\'m a retard lol.'));
 				const tagRegex = /(?:\bXDXDX\b)/igm;
+				const html = $(e).html();
+				if(tagRegex.test(html)) {
+					$(e).html(html.replace(tagRegex, 'I\'m a retard lol.'));
 				const tagRegex = /(?:\bXDXDXDX\b)/igm;
+				const html = $(e).html();
+				if(tagRegex.test(html)) {
+					$(e).html(html.replace(tagRegex, 'I\'m a retard lol.'));
 				const tagRegex = /(?:\bXDXDXDXDX\b)/igm;
+				const html = $(e).html();
+				if(tagRegex.test(html)) {
+					$(e).html(html.replace(tagRegex, 'I\'m a retard lol.'));
 				const tagRegex = /(?:\bXDXDXDXDXDX\b)/igm;
+				const html = $(e).html();
+				if(tagRegex.test(html)) {
+					$(e).html(html.replace(tagRegex, 'I\'m a retard lol.'));
 				const tagRegex = /(?:\bXDXDXDXDXDXDX\b)/igm;
+				const html = $(e).html();
+				if(tagRegex.test(html)) {
+					$(e).html(html.replace(tagRegex, 'I\'m a retard lol.'));
 				const tagRegex = /(?:\bXDXDXDXDXDXDXDX\b)/igm;
+				const html = $(e).html();
+				if(tagRegex.test(html)) {
+					$(e).html(html.replace(tagRegex, 'I\'m a retard lol.'));
 				const html = $(e).html();
 				if(tagRegex.test(html)) {
 					$(e).html(html.replace(tagRegex, 'I\'m a retard lol.'));
