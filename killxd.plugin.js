@@ -44,6 +44,21 @@ class killxd {
 		setTimeout(function() {
 			$(".chat .content .messages-wrapper .messages .message-group .comment .message .message-text .markup:not(pre), .chat .content .messages-wrapper .messages .message-group .comment .message .message-text .markup:not(code)").each((i, e) => {
 				const tagRegex = /(?:\bXD\b)/igm;
+				const tagRegex = /(?:\bXDXD\b)/igm;
+				const tagRegex = /(?:\bXDXDXD\b)/igm;
+				const tagRegex = /(?:\bXDXDXDXD\b)/igm;
+				const tagRegex = /(?:\bXDXDXDXDXD\b)/igm;
+				const tagRegex = /(?:\bXDXDXDXDXDXD\b)/igm;
+				const tagRegex = /(?:\bXDXDXDXDXDXDXD\b)/igm;
+				const tagRegex = /(?:\bXDXDXDXDXDXDXDXD\b)/igm;
+				const tagRegex = /(?:\bXDD\b)/igm;
+				const tagRegex = /(?:\bXDX\b)/igm;
+				const tagRegex = /(?:\bXDXDX\b)/igm;
+				const tagRegex = /(?:\bXDXDXDX\b)/igm;
+				const tagRegex = /(?:\bXDXDXDXDX\b)/igm;
+				const tagRegex = /(?:\bXDXDXDXDXDX\b)/igm;
+				const tagRegex = /(?:\bXDXDXDXDXDXDX\b)/igm;
+				const tagRegex = /(?:\bXDXDXDXDXDXDXDX\b)/igm;
 				const html = $(e).html();
 				if(tagRegex.test(html)) {
 					$(e).html(html.replace(tagRegex, 'I\'m a retard lol.'));
